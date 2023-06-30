@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "clear-enchanting",
+	"version": "1.0.0",
+	"name": "Clear Enchanting",
+	"description": "Shows the enchantment table's enchantments without having to hover over them.",
+	"authors": [
+		"MikaDev"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/clear-enchanting/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.mikadev.clearenchanting.ClearEnchanting"
+		]
+	},
+	"mixins": [
+		"clear-enchanting.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17"
+	}
+}

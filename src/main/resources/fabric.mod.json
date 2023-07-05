@@ -1,13 +1,13 @@
 {
 	"schemaVersion": 1,
 	"id": "clear-enchanting",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"name": "Clear Enchanting",
 	"description": "Shows the enchantment table's enchantments without having to hover over them.",
 	"authors": [
 		"MikaDev"
 	],
-	"license": "CC0-1.0",
+	"license": "ARR",
 	"icon": "assets/clear-enchanting/icon.png",
 	"environment": "client",
 	"entrypoints": {
